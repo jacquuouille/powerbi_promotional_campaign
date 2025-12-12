@@ -1,3 +1,9 @@
+-- Creating 3 materialised views 
+-- 1. customers_members (customers.csv)
+-- 2. offers (offers.csv) 
+-- 3. customers_events (events.csv)
+
+
 --
 -- 1. Customer Members View
 --
