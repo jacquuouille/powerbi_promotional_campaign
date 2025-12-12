@@ -5,7 +5,7 @@
 
 
 -- 
--- 1. Completed segments (= users who have completed at least 1 offer)  
+-- 1. Completed segments (= customers who have completed at least 1 offer)  
 --
 
 with 
