@@ -12,7 +12,7 @@ offer_stat as (
 		customers_members cm 
 		on ce.customer_id = cm.customer_id
 	where 
-		income_cat is not null -- excluding customers with no gender, age and income referred (12.8% of the dataset, which can be significant; however, this step was critical for clarifying customer behavior patterns).
+		income_cat is null -- excluding customers with no gender, age and income referred (12.8% of the dataset, which can be significant; however, this step was critical for clarifying customer behavior patterns).
 	group by 
 		1, 2 
 )
