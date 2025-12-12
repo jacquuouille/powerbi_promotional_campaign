@@ -1,7 +1,12 @@
 -- COHORT ANALYSIS 
--- track customers repeat behaviour (= transaction) over the next months
+-- track customers repeat behaviour (= transaction) over the next months, split into 2 groups:
+   -- 1. those who have completed at least 1 offer 
+   -- 2. those who haven't completed any
 
--- 1. USERS WHO HAVE COMPLETED AT LEAST 1 OFFER
+
+-- 
+-- 1. Completed segments (= users who have completed at least 1 offer)  
+--
 
 with 
 completed_users_tbl as (
@@ -9,11 +14,11 @@ completed_users_tbl as (
 		distinct customer_id  
 	from 
 		customers_events 
-	join 
+	left join 
 		customers_members cm 
 		on ce.customer_id = cm.customer_id
 	where 
-		income_cat is not null 
+		income_cat is not null -- excluding customers with no gender, age and income referred (12.8% of the dataset, which can be significant; however, this step was critical for clarifying customer behavior patterns).
 		and event = '3. offer_completed' 
 )
 , transactions_tbl as ( 
@@ -49,8 +54,7 @@ completed_users_tbl as (
 		cohort_buckets_tbl cbt
 		on tt.customer_id = cbt.customer_id 
 	where 
-		nb_transaction > 1
-		-- and tt.customer_id = '004c5799adbf42868b9cff0396190900' order by 1, time
+		nb_transaction > 1 
 )
 , cohort_size_tbl as (
 	select 
@@ -88,3 +92,35 @@ left join
 	on rt.cohort_day = cst.cohort_day
 order by 
 	1, 3
+
+
+-- 
+-- 2. Not-completed segments (= customers who have completed any) 
+-- 
+
+-- same code, by looking at the following cohorts: 
+
+completed_users_tbl as (
+	select 
+		distinct customer_id  
+	from 
+		customers_events 
+	join 
+		customers_members cm 
+		on ce.customer_id = cm.customer_id
+	where 
+		income_cat is not null
+		and event = '3. offer_completed' 
+)
+, non_completed_users_tbl as (
+	select 
+		distinct ce.customer_id 
+	from 
+		customers_events ce 
+	left join 
+		completed_users_tbl cut 
+		on ce.customer_id = cut.customer_id 
+	where 
+		cut.customer_id is null
+)
+... 
