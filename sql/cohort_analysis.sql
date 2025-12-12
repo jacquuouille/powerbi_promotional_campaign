@@ -31,7 +31,7 @@ completed_users_tbl as (
 		completed_users_tbl cut
 		on ce.customer_id = cut.customer_id 
 	where 
-		ce.event = 'transaction' 
+		ce.event = 'transaction' -- looking at all customers' transactions 
 )
 , cohort_buckets_tbl as ( 
 	select 	
@@ -40,7 +40,7 @@ completed_users_tbl as (
 	from 
 		transactions_tbl 
 	where 
-		nb_transaction = 1
+		nb_transaction = 1 -- cohort is corresponds to the day customers make their first purchase within the 30-day window.
 	group by 	
 		1, 2
 )
@@ -54,7 +54,7 @@ completed_users_tbl as (
 		cohort_buckets_tbl cbt
 		on tt.customer_id = cbt.customer_id 
 	where 
-		nb_transaction > 1 
+		nb_transaction > 1 -- returning day refers to the next purchase day on which customers make another purchase after the initial (cohort) purchase.
 )
 , cohort_size_tbl as (
 	select 
