@@ -1,4 +1,4 @@
--- 1. Redemption rate by role (% completion divided by % sent (not divided by % viewed)
+-- 1. Redemption rate (% completion divided by % sent (not divided by % viewed)
 
 with 
 offer_stat as ( 
