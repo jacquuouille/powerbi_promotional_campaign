@@ -18,7 +18,7 @@ completed_users_tbl as (
 		customers_members cm 
 		on ce.customer_id = cm.customer_id
 	where 
-		income_cat is not null -- excluding customers with no gender, age and income referred (12.8% of the dataset, which can be significant; however, this step was critical for clarifying customer behavior patterns).
+		income_cat is null -- excluding customers with no gender, age and income referred (12.8% of the dataset, which can be significant; however, this step was critical for clarifying customer behavior patterns).
 		and event = '3. offer_completed' 
 )
 , transactions_tbl as ( 
@@ -105,11 +105,11 @@ completed_users_tbl as (
 		distinct customer_id  
 	from 
 		customers_events 
-	join 
+	left join 
 		customers_members cm 
 		on ce.customer_id = cm.customer_id
 	where 
-		income_cat is not null
+		income_cat is null
 		and event = '3. offer_completed' 
 )
 , non_completed_users_tbl as (
