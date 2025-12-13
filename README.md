@@ -38,3 +38,42 @@ Proviving a comprehensive view of behaviours of a coffee shop members over a 30-
 | event       | text       | Description of the event (transaction, offer received, offer viewed, or offer completed)      |
 | value       | text       | Dictionary of values associated with the event (amount for transactions, offer_id for offers received and viewed, and offer_id & reward for offers completed).     |
 | time       | integer       | Hours passed in the 30-day period (starting at 0)    | 
+
+
+## 🧹  Data cleaning 
+
+→ `customers.csv` 
+- Customer categorisation by age, income and tenure.
+- 2,175 customers had missing details (12.8%) and were excluded from the analysis **to ensure a clearer view of customer behavior by segment.**
+
+→ `events.csv` 
+- Unnest value to properly manipulate the data
+
+**1. value → offer_id**
+```sql
+, case 
+   when value like '%offer id%' then regexp_replace(value, '.*offer id'':[[:space:]]*''([^'']+)''.*', '\1') 
+   when value like '%offer_id%' then regexp_replace(value, '.*offer_id'':[[:space:]]*''([^'']+)''.*', '\1')
+   else null 
+end as offer_id
+```
+| value | offer_id | 
+|-------|---------|
+| {'offer id': '5a8bc65990b245e5a138643cd4eb9837'}     | 5a8bc65990b245e5a138643cd4eb9837 |
+
+**2. value → reward**
+```sql
+, case when value like '%reward%' then regexp_replace(value, '.*reward'':[[:space:]]*([0-9]+).*', '\1')::int else 0 end AS reward
+```
+| value | offer_id | 
+|-------|---------|
+| {'offer_id': '2298d6c36e964ae4a3e7e9706d1fb8c2', 'reward': 3}    | 3 |
+
+**2. value → reward**
+```sql
+, case when value like '%reward%' then regexp_replace(value, '.*reward'':[[:space:]]*([0-9]+).*', '\1')::int else 0 end AS reward
+```
+| value | offer_id | 
+|-------|---------|
+| {'offer_id': '2298d6c36e964ae4a3e7e9706d1fb8c2', 'reward': 3}    | 3 |
+
