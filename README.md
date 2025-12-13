@@ -109,4 +109,6 @@ ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
  
 
 ## 👉 Recommandations
- 1. Leverage social to boost the overall view rate 
+ 1. **Target female customers and older age groups** (most engaged segments that spend the most) → should boost revenue even more.
+ 2. **Leverage social to boost the overall view rate** → to maxumize engagement.
+ 3. **Redifine offer terms:** 
