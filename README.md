@@ -19,3 +19,13 @@ Proviving a comprehensive view of behaviours of a coffee shop members over a 30-
 | age       | integer       | Customer's age       |
 | income       | float       | Customer's estimated annual income, in USD       |
 
+→ `offers.csv`  
+
+| Column               | Type        | Description                                |
+|----------------------|------------|--------------------------------------------|
+| offer_id       | text       | Unique offer ID (primary key)      |
+| offer_type       | text       | Type of offer: bogo (buy one, get one), discount, or informational      |
+| difficulty       | integer       | Minimum amount required to spend in order to be able to complete the offer     |
+| reward       | integer       | Reward ($) obtained by completing the offer    |
+| duration       | integer       | Days a customer has to complete the offer once they have received it       |
+| channels       | text       | List of marketing channels used to send the offer to customers      |
