@@ -88,3 +88,14 @@ Below is an extract showing the number of duplicate records associated with each
 425baccbe9154f13844934c24b68b38e	|19 |	17 | 	2 |
 | ... | ... | ... | ... |
 ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
+
+
+## 📊 Overall Campaign KPIs
+
+ 1. **Net Revenue:** $1.6M
+ 2. **Rewards Spent:** $158.6K (9.1% out of Total Sales)
+ 3. **Offer Sent:** 66.5K
+ 4. **Redemption Rate:** 48.2% 
+ 5. **Converted Customers:** 12K (80.9% out of Total Reached Customers)
+
+## 📈 Key Learnings
