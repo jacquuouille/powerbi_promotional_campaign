@@ -29,3 +29,12 @@ Proviving a comprehensive view of behaviours of a coffee shop members over a 30-
 | reward       | integer       | Reward ($) obtained by completing the offer    |
 | duration       | integer       | Days a customer has to complete the offer once they have received it       |
 | channels       | text       | List of marketing channels used to send the offer to customers      |
+
+→ `events.csv`
+
+| Column               | Type        | Description                                           |
+|----------------------|------------|-------------------------------------------------------|
+| customer_id       | text       | Customer the event is associated with  (foreign key)     |
+| event       | text       | Description of the event (transaction, offer received, offer viewed, or offer completed)      |
+| value       | text       | Dictionary of values associated with the event (amount for transactions, offer_id for offers received and viewed, and offer_id & reward for offers completed).     |
+| time       | integer       | Hours passed in the 30-day period (starting at 0)    | 
