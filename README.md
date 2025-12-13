@@ -65,15 +65,18 @@ end as offer_id
 ```sql
 , case when value like '%reward%' then regexp_replace(value, '.*reward'':[[:space:]]*([0-9]+).*', '\1')::int else 0 end AS reward
 ```
-| value | offer_id | 
+| value | reward | 
 |-------|---------|
 | {'offer_id': '2298d6c36e964ae4a3e7e9706d1fb8c2', 'reward': 3}    | 3 |
 
-**2. value → reward**
+**3. value → amount**
 ```sql
-, case when value like '%reward%' then regexp_replace(value, '.*reward'':[[:space:]]*([0-9]+).*', '\1')::int else 0 end AS reward
+, case when value like '%amount%' then regexp_replace(value, '.*amount'':[[:space:]]*(-?[0-9]+(?:\.[0-9]+)?).*', '\1')::float else 0 end AS amount
 ```
-| value | offer_id | 
+| value | amount | 
 |-------|---------|
-| {'offer_id': '2298d6c36e964ae4a3e7e9706d1fb8c2', 'reward': 3}    | 3 |
+| {'amount': 11.93}           | 11.93 |
+
+
+✅ This transformation revealed duplicate records, particularly in the offer completions events, which were removed to avoid overcounting. 
 
