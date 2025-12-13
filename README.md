@@ -47,7 +47,7 @@ Proviving a comprehensive view of behaviours of a coffee shop members over a 30-
 - 2,175 customers had missing details (12.8%) and were excluded from the analysis **to ensure a clearer view of customer behavior by segment.**
 
 → `events.csv` 
-- Unnest value to properly manipulate the data
+- Unnest value to properly manipulate the data.
 
 **1. value → offer_id**
 ```sql
