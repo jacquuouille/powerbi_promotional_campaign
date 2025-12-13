@@ -107,7 +107,6 @@ ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
  6. **Sending offers more frequently significantly boost customer engagement** (+$15K of average daily revenue compared to weekly campaigns).
  7. **Offer completion positively impacts customer behavior:** customers who completed at least 1 offer made ~4 additional transactions on average during the 30-day period and showed a +6pts in purchase retention compared to customers who did not complet any offers.
  
-
 ## 👉 Recommandations
  1. **Target female customers and older age groups** (most engaged segments that spend the most), which should further boost revenue.
  2. **Leverage social to boost the overall view rate**.
@@ -115,3 +114,17 @@ ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
     - Send offers every 3-4 days to increase average daily revenue (instead than weekly)
     - Set offer redemption periods to 7-10 days to maximize redemption
     - Reduce the spent requirement for BOGO offers (not more than $5), and limit all offers to a maximum of $10.
+   
+## 🛠️ Technology Stack
+- PostgreSQL, Power BI, DAX, Python, GitHub.
+
+## ℹ️ Data Source
+[Maeven Analytics](https://mavenanalytics.io/data-playground/cafe-rewards-offers)
+
+## 👨‍💻 Author
+**Jacques Hervochon** 🟦 [LinkedIn](https://www.linkedin.com/in/jacques-hervochon-27448898) |
+🔗 [Portfolio](https://jacqueshervochon.carrd.co/#) |
+📆 [Book a call](https://calendly.com/jacqueshervochon/30min)
+
+## 📄 License 
+This project is licensed under the MIT License.
