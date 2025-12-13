@@ -109,9 +109,9 @@ ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
  
 
 ## 👉 Recommandations
- 1. **Target female customers and older age groups** (most engaged segments that spend the most) → should boost revenue even more.
- 2. **Leverage social to boost the overall view rate** → to maxumize engagement.
- 3. **Redifine offer terms → to optinise results
-    - send offers every 3-4 days to increase average daily revenue 
-    - offers should have 7-10 days of completion duration to maximize redemption
-    - reduce the amount required to spend for BOGO offers (not more than $5), and not more than $10 overall.
+ 1. **Target female customers and older age groups** (most engaged segments that spend the most), which should further boost revenue.
+ 2. **Leverage social to boost the overall view rate**.
+ 3. **Redifine offer terms** to optinise results
+    - Send offers every 3-4 days to increase average daily revenue (instead than weekly)
+    - Set offer redemption periods to 7-10 days to maximize redemption
+    - Reduce the spent requirement for BOGO offers (not more than $5), and limit all offers to a maximum of $10.
