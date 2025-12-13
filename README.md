@@ -100,11 +100,12 @@ ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
 
 ## 📈 Key Learnings
  1. Discount offers are slightly more popular than BOGO promotions (64% vs. 57%).
- 2. The most loyal customers is the segment that seems to be the more interested by the promotional offers (65% vs. 31% the lowest customer groups (New Accounts). Same conclusion breaking down by age. 
- 3. Male is the demographic group that seems to be the least interested of the offers (43% vs. ~55% for Females and Others).
- 4. Social medias boosts the overall view rate (+50 pts on average vs. other channels not using social medias).
- 5. Higher rewards do not always lead to higher redemption rates (up to 73% of redemption rate with a $3 reward vs. 52% with $10 reward.)
- 6. Longer durations (> 7 days) tend to improve redemption rate (62% of redemption rate vs. 56%).
+ 2. The most loyal customers is the segment that seems to be the more interested by the promotional offers (65% vs. 31% the lowest customer groups (New Accounts). Same conclusion breaking down by age. Male is the demographic group that seems to be the least interested of the offers (43% vs. ~55% for Females and Others).
+ 3. Social medias boosts the overall view rate (+50 pts on average vs. other channels not using social medias).
+ 4. Higher rewards do not always lead to higher redemption rates (up to 73% of redemption rate with a $3 reward vs. 52% with $10 reward.)
+ 5. Longer durations (> 7 days) tend to improve redemption rate (62% of redemption rate vs. 56%).
+ 6. Sending offers more frequently significantly boost customer engagement (+$15K of average of daily revenuie increased by $15K vs. every week).
+ 7. Customers who completed at least 1 offer tend to purchase more: +4 transactions on average per customer during this 30 days (+6pts of retention-purchased vs. customers who completed any).
  
 
 ## 👉 Recommandations
