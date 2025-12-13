@@ -99,13 +99,13 @@ ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
  5. **Converted Customers:** 12K (81% out of Total Reached Customers)
 
 ## 📈 Key Learnings
- 1. Discount offers are slightly more popular than BOGO promotions (64% of redemption rate vs. 57%).
- 2. Customer loyalty is a strong driver of engagement: long-term customers show the highest interest in promotional offers (65%) compared to new accounts (31%). The same pattern holds when analyzing engagement by age. Besides, male customers are tge least responsive segments (43% vs. ~55% for Females and other genders).
- 3. Including social medias significantly boosts offer visibility (+50 pts on average vs. other channels mixes without using social medias).
- 4. Higher rewards do not necessarily lead to higher redemption rates (up to 73% of redemption rate for a $3 reward vs. 52% for a $10 reward.)
- 5. Longer durations (> 7 days) tend to improve redemption rate (62% of redemption rate vs. 56% for shorter durations).
- 6. Sending offers more frequently significantly boost customer engagement (+$15K of average daily revenue compared to weekly campaigns).
- 7. Offer completion positively impacts customer behavior: customers who completed at least 1 offer made ~4 additional transactions on average during the 30-day period and showed a +6pts in purchase retention compared to customers who did not complet any offers.
+ 1. **Discount offers are slightly more popular than BOGO promotions** (64% of redemption rate vs. 57%).
+ 2. **Customer loyalty is a strong driver of engagement:** long-term customers show the highest interest in promotional offers (65%) compared to new accounts (31%). The same pattern holds when analyzing engagement by age. Besides, male customers are tge least responsive segments (43% vs. ~55% for Females and other genders).
+ 3. **Including social medias significantly boosts offer visibility** (+50 pts on average vs. other channels mixes without using social medias).
+ 4. **Higher rewards do not necessarily lead to higher redemption rates** (up to 73% of redemption rate for a $3 reward vs. 52% for a $10 reward.)
+ 5. **Longer durations (> 7 days) tend to improve redemption rate** (62% of redemption rate vs. 56% for shorter durations).
+ 6. **Sending offers more frequently significantly boost customer engagement** (+$15K of average daily revenue compared to weekly campaigns).
+ 7. **Offer completion positively impacts customer behavior:** customers who completed at least 1 offer made ~4 additional transactions on average during the 30-day period and showed a +6pts in purchase retention compared to customers who did not complet any offers.
  
 
 ## 👉 Recommandations
