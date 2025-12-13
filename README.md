@@ -78,5 +78,13 @@ end as offer_id
 | {'amount': 11.93}           | 11.93 |
 
 
-✅ This transformation revealed duplicate records, particularly in the offer completions events, which were removed to avoid overcounting. 
+✅ This transformation revealed duplicate records, particularly in the offer completions events, which were removed to avoid overcounting.
 
+Below is an extract showing the number of duplicate records associated with each number, impacting 317 customers (2.5%) and resulting in 374 duplicate events that were originally overcounted.
+
+| customer_id | freq_old_table | freq_new_table | freq_diff |  
+|-------------|----------------|----------------|-----------------------|  
+3526938fb466470190a504a751ec07b0	| 15| 	13 |	2 |
+425baccbe9154f13844934c24b68b38e	|19 |	17 | 	2 |
+| ... | ... | ... | ... |
+ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
