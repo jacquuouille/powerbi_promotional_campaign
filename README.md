@@ -93,9 +93,18 @@ ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
 ## 📊 Overall Campaign KPIs
 
  1. **Net Revenue:** $1.6M
- 2. **Rewards Spent:** $158.6K (9.1% out of Total Sales)
+ 2. **Rewards Spent:** $158.6K (9% out of Total Sales)
  3. **Offer Sent:** 66.5K
  4. **Redemption Rate:** 48.2% 
- 5. **Converted Customers:** 12K (80.9% out of Total Reached Customers)
+ 5. **Converted Customers:** 12K (81% out of Total Reached Customers)
 
 ## 📈 Key Learnings
+ 1. Discount offers are slightly more popular than BOGO promotions (64% vs. 57%).
+ 2. Established accounts is the segment that seems to be the more interested by the promotional offers (65% vs. 31% the lowest customer groups (New Accounts).
+ 3. Female are the most engaged vs. the other segments (56% vs. 43% (Male) and , while Male is the demographic group that seems to be the least interested of the offers (43% vs. ~55% for Females and Others.
+ 4. Social boosts the overall view rate (+50 pts on average).
+ 5. Shorter durations 
+
+
+## 👉 Recommandations
+ 1. Leverage social to boost the overall view rate 
