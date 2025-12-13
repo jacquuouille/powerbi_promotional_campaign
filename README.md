@@ -100,11 +100,12 @@ ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
 
 ## 📈 Key Learnings
  1. Discount offers are slightly more popular than BOGO promotions (64% vs. 57%).
- 2. Established accounts is the segment that seems to be the more interested by the promotional offers (65% vs. 31% the lowest customer groups (New Accounts).
- 3. Female are the most engaged vs. the other segments (56% vs. 43% (Male) and , while Male is the demographic group that seems to be the least interested of the offers (43% vs. ~55% for Females and Others.
- 4. Social boosts the overall view rate (+50 pts on average).
- 5. Shorter durations 
-
+ 2. The most loyal customers is the segment that seems to be the more interested by the promotional offers (65% vs. 31% the lowest customer groups (New Accounts). Same conclusion breaking down by age. 
+ 3. Male is the demographic group that seems to be the least interested of the offers (43% vs. ~55% for Females and Others).
+ 4. Social medias boosts the overall view rate (+50 pts on average vs. other channels not using social medias).
+ 5. Higher rewards do not always lead to higher redemption rates (up to 73% of redemption rate with a $3 reward vs. 52% with $10 reward.)
+ 6. Longer durations (> 7 days) tend to improve redemption rate (62% of redemption rate vs. 56%).
+ 
 
 ## 👉 Recommandations
  1. Leverage social to boost the overall view rate 
