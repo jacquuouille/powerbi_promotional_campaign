@@ -91,7 +91,7 @@ ff95e0a9cdfd4030958762dadcb11e1a	| 11	| 10	| 1
 
 ## ⭐️ Star Schema
 
-![Star Schema Data Model](screenshots/data_model.png)
+![Star Schema Data Model](screenshots/star_schema.png)
 
 
 ## 📊 Overall Campaign KPIs
