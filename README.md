@@ -5,7 +5,7 @@ Proviving a comprehensive view of behaviours of a coffee shop members over a 30-
 
 👉 [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiN2ZhOTI1NDktZWRlYS00MzM0LWI4YzEtMDU4MjQ1OWRiODg0IiwidCI6IjdkNDg3NDc4LWNhMjYtNDkxOS05MDlhLTBjNDU3MTQyYzczNCJ9&pageName=87f77b55a00e014be595)
 
-![Offer Campaign Analysis Dashboard](screenshots/overview.png)
+![Offer Campaign Analysis Dashboard](screenshots/dash_overview.png)
 
 ## 📂 Data model 
 
