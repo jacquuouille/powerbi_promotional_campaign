@@ -77,7 +77,7 @@ AS
   			else event 
 			end as event
   
-   -- 'value' -> to unnest in order to have 'offer_id', 'reward' and 'amount' as columns. Extracting the data this way removed duplicates (for offer completions, 396 records were duplicated (≈0.1%)).
+   -- 'value' -> to unnest in order to have 'offer_id', 'reward' and 'amount' as extra columns. Extracting the data this way removed duplicates (for offer completions, 396 records were duplicated (≈0.1%)).
 	 	, case 
   			when value like '%offer id%' then regexp_replace(value, '.*offer id'':[[:space:]]*''([^'']+)''.*', '\1') 
   			when value like '%offer_id%' then regexp_replace(value, '.*offer_id'':[[:space:]]*''([^'']+)''.*', '\1')
