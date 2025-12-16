@@ -51,7 +51,7 @@ offer_stat as (
 		on all_combinaisons.offer_id = offer_stat.offer_id 
 		and all_combinaisons.event = offer_stat.event
 	where 
-		all_combinaisons.offer_id is not null
+		all_combinaisons.offer_id is not null -- excluding 'information' as offer type as it can not be complete.
 ) 
 , conversion_rates as ( 
 	select 
