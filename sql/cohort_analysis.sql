@@ -1,11 +1,11 @@
 -- COHORT ANALYSIS 
--- track customers repeat behaviour (= transaction) over the next months, split into 2 groups:
-   -- 1. those who have completed at least 1 offer 
-   -- 2. those who haven't completed any
+-- track customers repeat purchase behaviour over the next days, split into 2 groups:
+   -- 1. those who completed at least 1 offer 
+   -- 2. those who did not complet any
 
 
 -- 
--- 1. Completed segments (= customers who have completed at least 1 offer)  
+-- 1. Completed segments (= customers who completed at least 1 offer)  
 --
 
 with 
@@ -95,7 +95,7 @@ order by
 
 
 -- 
--- 2. Not-completed segments (= customers who have completed any) 
+-- 2. Not-completed segments (= customers who did not complet any) 
 -- 
 
 -- same code, by looking at the following cohorts: 
