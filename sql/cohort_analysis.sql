@@ -40,7 +40,7 @@ completed_users_tbl as (
 	from 
 		transactions_tbl 
 	where 
-		nb_transaction = 1 -- cohort is corresponds to the day customers make their first purchase within the 30-day window.
+		nb_transaction = 1 -- cohort corresponds to the day customers make their first purchase within the 30-day window.
 	group by 	
 		1, 2
 )
